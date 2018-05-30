@@ -1,4 +1,2 @@
 # ACES_CAR
-Auto-control Car machine
-
-test commit
+We'll contribute Self driving RC Car.
