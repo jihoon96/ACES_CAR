@@ -47,12 +47,20 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
+<<<<<<< HEAD
  add_message_files(
    FILES
    esc_signal.msg
 #   Message1.msg
 #   Message2.msg
  )
+=======
+# add_message_files(
+#   FILES
+#   Message1.msg
+#   Message2.msg
+# )
+>>>>>>> db6ab7f055ab91b7b89dc5c85b1219d369397d2c
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -69,10 +77,17 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
+<<<<<<< HEAD
  generate_messages(
    DEPENDENCIES
    std_msgs
  )
+=======
+# generate_messages(
+#   DEPENDENCIES
+#   std_msgs
+# )
+>>>>>>> db6ab7f055ab91b7b89dc5c85b1219d369397d2c
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -105,8 +120,13 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
+<<<<<<< HEAD
   LIBRARIES image_processing
   CATKIN_DEPENDS roscpp std_msgs
+=======
+#  LIBRARIES image_processing
+#  CATKIN_DEPENDS message_generation roscpp std_msgs
+>>>>>>> db6ab7f055ab91b7b89dc5c85b1219d369397d2c
 #  DEPENDS system_lib
 )
 
