@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: aces_car
+Description: Description of aces_car
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -laces_car
+Requires: roscpp std_msgs
