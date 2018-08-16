@@ -1,0 +1,3 @@
+<launch>
+	<node name="esc_key_control" pkg="esc_control" type="esc_key_control" output="screen" />
+</launch>
