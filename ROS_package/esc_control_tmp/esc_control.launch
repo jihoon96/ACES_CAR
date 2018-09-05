@@ -1,4 +1,0 @@
-<launch>
-	<node name="teleop_car_key" pkg="esc_control" type="teleop_car_key" output="screen" />
-	<node name="init_esc" pkg="esc_control" type="init_esc" output="screen"/>
-</launch>
